@@ -4,4 +4,8 @@ import App from './App';
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-});
+  const linkElement = document.querySelector("h1").innerHTML
+  if(!linkElement) {
+    throw new Error
+  }
+}); 
