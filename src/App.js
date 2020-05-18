@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
-const App = () => {
-  return (
-    <div className="App">
-      <h1>learn react All about those tests!!</h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      // Using data-test because it is used specific to test
+      <div data-test=>
+      
+      </div>
+    )
+  }
 }
 
 export default App;
